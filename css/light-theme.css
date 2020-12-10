@@ -1,0 +1,21 @@
+/* *****custom variables***** */
+:root {
+  /* ***primary colors*** */
+  --bright-blue: hsl(220, 98%, 61%);
+  --check-background: linear-gradient(
+    135deg,
+    hsl(192, 100%, 67%),
+    hsl(280, 87%, 65%)
+  );
+  --white: hsl(0, 0%, 100%);
+
+  /* ***neutral light theme colors*** */
+  --very-light-gray: hsl(0, 0%, 98%);
+  --very-light-grayish-blue: hsl(236, 33%, 92%);
+  --light-grayish-blue-lt: hsl(233, 11%, 84%);
+  --dark-grayish-blue-lt: hsl(236, 9%, 61%);
+  --very-dark-grayish-blue-lt: hsl(235, 19%, 35%);
+
+  /* ***fonts*** */
+  --josefin-sans: "Josefin Sans", sans-serif;
+}
