@@ -77,8 +77,10 @@ div.input-field-container {
 }
 
 input.input-field {
+  background-color: var(--white);
   border: none;
   border-radius: 5px;
+  color: inherit;
   font-family: inherit;
   font-size: 0.8rem;
   padding: 1rem 1rem 1rem 3.2rem;
