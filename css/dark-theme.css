@@ -163,7 +163,12 @@ div.todo p.todo-name {
 
 div.todo.completed p.todo-name {
   color: var(--very-dark-grayish-blue-dt1);
-  text-decoration: var(--very-dark-grayish-blue-dt1) line-through 1px;
+  /*text-decoration: var(--very-dark-grayish-blue-dt1) line-through 1px;*/
+  text-decoration: line-through;
+  text-decoration-color: var(--very-dark-grayish-blue-dt1);
+  -webkit-text-decoration-color: var(--very-dark-grayish-blue-dt1);
+  text-decoration-style: solid;
+  -webkit-text-decoration-style: solid;
 }
 
 div.todo i.btn-delete-todo {
@@ -187,6 +192,7 @@ p.clear-completed-todos {
 p.clear-completed-todos {
   font-weight: 700;
   cursor: pointer;
+  transition: all 0.2s;
 }
 
 div.todo-status-container {
@@ -262,6 +268,10 @@ p.instruction {
   }
 
   div.todo-status-container p:hover {
+    color: var(--white);
+  }
+
+  p.clear-completed-todos:hover {
     color: var(--white);
   }
 
